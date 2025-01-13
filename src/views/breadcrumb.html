@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de navegación</title>
+  </head>
+  <nav aria-label="breadcrumb" class="flex space-x-2 text-sm text-secondary p-4">
+    <ol class="flex space-x-2">
+      <li><a href="index.html" class="text-primary hover:underline">Inicio</a></li>
+      <li><span class="text-secondary">></span></li>
+      <li class="text-secondary" id="current-page" aria-current="page"></li>
+    </ol>
+  </nav>
+  <script>
+    const currentPage = document.getElementById('current-page');
+    currentPage.textContent = document.title;
+  </script>
+</html>

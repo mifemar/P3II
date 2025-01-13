@@ -1,0 +1,8 @@
+/* Clases con @apply */
+
+.title {
+  @apply font-serif mb-1 text-center text-[calc(1rem+4vw)] leading-relaxed;
+}
+.card {
+  @apply w-80 p-4 text-center bg-light border border-secondary rounded-lg shadow-md;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de inicio</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <script type="module" src="./assets/scripts/main.js"></script>
+  </head>
+  <body class="bg-light">
+    
+    <!-- Header -->
+    <include src="./views/header.html"></include>
+    
+    <main class="container mx-auto p-4">
+      <h1 class="title text-danger">Jornadas Nacionales de Investigación en Ciberseguridad</h1>
+      <h2 class="mb-4 text-left font-semibold text-secondary text-[calc(1rem+1vw)] no-underline uppercase"><abbr title="Jornadas Nacionales de Investigación en Ciberseguridad">JNIC</abbr></h2>
+      <hr class="mb-4 border-secondary">
+      <p class="mb-4 leading-relaxed text-dark">
+        Las <strong>Jornadas Nacionales de Investigación en Ciberseguridad</strong> (JNIC) es un congreso científico que sirve de punto de encuentro donde los diversos actores que trabajan en el ámbito de la investigación en ciberseguridad (universidades, centros tecnológicos y de investigación, empresas, y administración pública) pueden intercambiar conocimiento y experiencias con el objetivo común de potenciar la investigación en el ámbito de la ciberseguridad a nivel nacional.
+      </p>
+      <div id="extra-text" style="display: none;">
+        <p class="mb-4 text-dark">Las necesidad de realizar unas jornadas de estas características se identificó durante la realización del estudio de viabilidad, oportunidad y diseño de una red de centros de excelencia I+D+i en ciberseguridad,​ con el consenso de todos los participantes.</p>
+        <p class="mb-4 text-dark">El <strong>plan estratégico</strong> generado para esta Red de Excelencia Nacional de Investigación en Ciberseguridad, incluía en la <i>medida 17</i>, la creación de las jornadas nacionales de I+D+i en ciberseguridad con el objetivo de ser el punto de encuentro científico en el que tanto la Red de Excelencia Nacional de Investigación en Ciberseguridad en particular, como el ecosistema investigador en general, puedan mostrar las capacidades tanto en conocimiento y talento como en resultados de investigación y su potencial de transferencia al mercado.</p>
+        <p class="text-dark">Igualmente dicho estudio en la <i>medida 12</i> proponía convocar premios a la investigación de excelencia, diseñando una convocatoria abierta con mecanismos de evaluación y selección de candidaturas.</p>
+      </div>
+      <a href="#" id="toggle-link" class="block font-bold text-dark uppercase hover:underline">Leer más</a>
+      <img src="./assets/images/portada.webp" alt="IX Jornadas Nacionales de Investigación en Ciberseguridad 2024" class="w-full h-auto my-4 object-cover">
+      <div class="mb-8 text-center text-dark font-bold uppercase leading-loose">
+        <p>27 de junio de 2024<br><abbr title="Escuela Técnica Superior de Ingeniería Informática">ETSII</abbr> de la Universidad de Sevilla</p>
+      </div>
+      <a href="https://es.wikipedia.org/wiki/Jornadas_Nacionales_de_Investigaci%C3%B3n_en_Ciberseguridad#" target="_blank" role="button" class="inline-block py-4 px-8 text-light uppercase bg-danger rounded-lg text-center underline">Más información</a>
+    </main>
+
+    <!-- Footer -->
+    <include src="./views/footer.html"></include>
+  
+  </body>
+</html>
